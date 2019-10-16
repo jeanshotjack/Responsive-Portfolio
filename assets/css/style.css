@@ -132,3 +132,30 @@ footer {
     border-top: 8px solid #4aaaa5;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 980px){
+    #main, #header {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #main, #header {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #main {
+        width: 96%;
+    }
+    #name {
+        width: 100%;
+        float: none;
+        margin: none;
+    }
+    #nav {
+        margin: auto;
+        float: none;
+    }
+}
