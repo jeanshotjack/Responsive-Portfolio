@@ -149,13 +149,19 @@ footer {
     #main {
         width: 96%;
     }
-    #name {
+    #name, #header {
         width: 100%;
         float: none;
         margin: none;
+        text-align: center;
+    }
+
+    #header {
+        position: static;
     }
     #nav {
         margin: auto;
         float: none;
+        text-align: center;
     }
 }
